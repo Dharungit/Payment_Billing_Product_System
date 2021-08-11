@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.bottom-box{
+    padding-top: 40px;
+}
+body{
+    font-family: sans-serif;
+}
+.app-container{
+    height: 500px;
+    width: 350px;
+    background-color:#233141;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    border-radius: 20px;
+}
+.payment-option-btn{
+    color:black;
+    margin: 5px 30px;
+    height:30px;
+    width: 290px;
+    background-color:white;
+    border: none;
+    border-radius: 20px;
+}
+.card-details{
+    background: #fff;
+    color: black;
+    margin: 10px 30px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.card-details label{
+    font-size: 15px;
+    line-height: 20px;
+}
+.card-num-field-group{
+    margin-top: 10px;
+    
+
+}
+.date-field-group{
+    margin-top: 10px;
+    display: inline-block;
+}
+.cvc-field-group{
+    margin-top: 10px;
+    display: inline-block;
+    float: right;
+}
+.name-field-group{
+    margin-top: 10px;
+}
+.card-num-field, .name-field{
+    width: 270px;
+
+}
+.date-field, .cvc-field{
+    width: 80px;
+}
+.card-details input{
+    border: 2px solid #ccc;
+    height: 22px;
+    padding: 2px;
+    font-size: 15px;
+}
+.card-details input::placeholder{
+    color: #555;
+}
+.pay-btn{
+    width: 270px;
+    color:white;
+    margin-top: 20px;
+    height:30px;
+    background-color: #233141;
+    border: none;
+    border-radius: 15px;
+
+}

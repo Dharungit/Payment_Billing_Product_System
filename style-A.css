@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI',sans-serif;
+    font-style: italic;
+}
+
+.title {
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: #233141;
+}
+
+.taskbar {
+    color: white;
+    margin-top: -4px;
+    padding: 15px;
+    background-color: #233141;
+}
+
+.taskbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.taskbar ul a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #233141;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    bottom: 0%;
+    position: absolute;
+    width: 97.65%;
+}
+footer a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+.login {
+    display: flex;
+    justify-content: center;
+    background-color: #233141;
+    padding: 30px 20px;
+    margin: 50px 400px;
+    border-radius: 80px;
+}
+
+.login .log_title {
+    display: flex;
+    justify-content: center;
+}
+
+.login .btn{
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.login .form_continer label {
+    color: white;
+}
+
+.login .dlb {
+    display: flex;
+    flex-direction: row;
+}
+
+.login form {
+    font-size: 18px;
+    font-weight: 600;
+}
+.login form .btn button{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Find{
+    padding: 10px 40px 10px 40px;
+    background-color: #233141;
+    margin: 10px 900px 0px 30px;
+    border-radius: 80px;
+    box-shadow: 7PX 8px 11px 1PX rgba(0, 0, 0, 0.548) ;
+
+}
+input, select, button[type='submit'] {
+    border-radius: 30px;
+    border: none;
+}
+label{
+    display: inline-block;
+    width: 40px;
+}
+
+/*My PArt Anbu  */
+
+/*Find REcord*/
+
+/* .Find {
+    display: flex;
+    justify-content: left;
+    background-color: #233141;
+    padding-left: 20px;
+    padding-right: 40px;
+    margin: 50px;
+    margin-right: 1050px;
+    border-radius: 80px;
+}
+.Find .Find1{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.Find .Find_record{
+    text-align: center; 
+    margin-left: 25px;
+}
+.Find1 input{
+    border-radius: 100px;
+} */
+
+/*Find REcord*/
+
+
+/*Contact us*/
+
+#logout {
+    position: absolute;
+    right: 30px;
+    background-color: white;
+    padding: 3px 15px;
+    color: black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+
+.Contact_box{
+    padding: 50px;
+    background-color: #233141;
+    margin: 20px 400px 20px 400px;
+    border-radius: 30px;
+    box-shadow: 7PX 8px 11px 1PX rgba(0, 0, 0, 0.548) ;
+
+}
+
+.txt {
+    padding: 5px 20px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+#co {
+    font-size: x-large;
+    color: white;
+    font-weight: bold;
+}

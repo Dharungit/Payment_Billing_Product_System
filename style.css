@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI',sans-serif;
+    font-style: italic;
+}
+
+.title {
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: #233141;
+}
+
+.taskbar {
+    color: white;
+    margin-top: -4px;
+    padding: 15px;
+    background-color: #233141;
+}
+
+.taskbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.taskbar ul a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #233141;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+.login {
+    display: flex;
+    justify-content: center;
+    background-color: #233141;
+    padding: 30px 20px;
+    margin: 50px 400px;
+    border-radius: 80px;
+    box-shadow: 7PX 8px 11px 1PX rgba(0, 0, 0, 0.548) ;
+}
+
+.login .log_title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.log_title h2 {
+    border-style: none none solid none;
+    border-color: white;
+    border-width: 4px;
+}
+
+.login .btn{
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.login .form_continer label {
+    color: white;
+}
+
+.login .dlb {
+    display: flex;
+    flex-direction: row;
+}
+
+.login form {
+    font-size: 18px;
+    font-weight: 600;
+}
+.login form .btn button{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.form_continer .txt_con {
+    margin: 20px 0px;
+    margin-left: -90px;
+
+}
+
+.Student-title {
+    position: relative;
+    background-color: #233141;
+    width: 100%;
+    padding: 25px 30px;
+    top: -5px;
+    display: flex;
+    justify-content: center;
+}
+
+.Student-title h2 {
+    color: white;
+    position: relative;
+    right: 3%;
+}
+
+button{
+    margin: 10px 0px;
+    border: none;
+}
+
+label{
+    display: inline-block;
+    width: 130px;
+}
+select {
+    margin-left: 42px;
+    padding-top: 0px;
+}
+
+button{
+    cursor: pointer;
+}
+
+input, select, button[type='submit'] {
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+
+#main {
+	position: absolute;
+    right: 10px;
+    border-radius: 60px;
+    background-color: #233141;
+	padding: 0px 28px 0px 28px;
+	width: 300px;
+    box-shadow: 7PX 8px 11px 1PX rgba(0, 0, 0, 0.548) ;
+
+}
+
+#main ul {
+	list-style: none;
+}
+
+#main ul li {
+	padding: 8px 0 8px 0;
+	border-top: solid 1px #d1d1d1;
+}
+
+#main ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
+
+#logout {
+    position: absolute;
+    right: 30px;
+    background-color: white;
+    padding: 3px 15px;
+    color: black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+#back {
+    position: absolute;
+    right: 40px;
+    background-color: #233141;
+    padding: 3px 15px;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+.searchbox {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #233141;
+    padding: 30px 20px;
+    margin: 40px 900px 50px 30px;
+    border-radius: 80px;
+    box-shadow: 7PX 8px 11px 1PX rgba(0, 0, 0, 0.548) ;
+}
+
+.searchbox .src_continer{
+    display: flex;
+    flex-direction: column;
+}
+.src_txt_con {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.searchbox .src_txt_con p,.searchbox .src_txt_con label {
+    color: white;
+}
+
+ .create-acc a {
+    color: black;
+    border-bottom: solid;
+    border-color: black;
+    border-width: 5px;
+    cursor: pointer;
+    position: absolute;
+    top:59%;
+    right: 2%;
+
+}
+
+#emailerror{ 
+    margin-top: 5px; 
+    margin-left: 100px;
+    width: 200px; 
+    font-size: 10px; 
+    color: aqua; 
+    background: black; 
+    text-align: center; 
+    padding: 5px 8px; 
+    border-radius: 30px; 
+    display: none; 
+     
+ 
+}
+#roleerror {
+        margin-top: 5px; 
+        margin-left: 100px;
+        width: 200px; 
+        font-size: 10px; 
+        color: aqua; 
+        background: black; 
+        text-align: center; 
+        padding: 5px 8px; 
+        border-radius: 30px; 
+        display: none;       
+}
+#passerror{ 
+    margin-top: 5px; 
+    margin-left: 100px;
+    width: 200px; 
+    font-size: 10px; 
+    color: aqua; 
+    background: black; 
+    text-align: center; 
+    padding: 5px 8px; 
+    border-radius: 30px; 
+    display: none; 
+ 
+}
+.notice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px 40px 0px;
+    margin: 30px 300px;
+    background-color: #233141;
+    border-radius: 30px;
+}
+.notice form {
+    display:flex;
+    flex-direction: column;
+}
+.notice h2 {
+    color: #fff;
+    margin: 10px;
+}
+.notice form button {
+    margin: 20px 200px 0px 200px;
+}
+.notice form textarea {
+    border-radius: 30px;
+    outline: none;
+}
+.change{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+}
+.con{
+    background-color: #233141;
+    padding: 50px;
+    border-radius: 30px;
+} 
+.con label  {
+    margin: 10px;
+    color: #fff;
+}
+.con .regbutton {
+    align-self: center;
+    position: relative;
+    left: 46%;
+}
+.con .regbutton input{
+    padding: 5px 15px;
+}
+
+ 
+.label1{ 
+    /* padding: 1% 3% 1% 1%; 
+    margin:5% 2% -25% 15%;  
+    color: white; 
+    font-size: 15px; 
+    font-weight: 600;   */
+     
+}
+.card3{
+    background-color: #233141;
+    box-shadow: 7PX 8px 11px 1PX rgba(0, 0, 0, 0.548) ;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    
+    margin: 2% 75% 4% 3%;
+    padding-bottom: 50px;
+    border-radius: 40px;
+    position:absolute;
+    top: 60%;
+    right: -800px;
+    
+
+}
+.head2{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2% 10% 5px 10%;
+   
+
+}
+.find{
+    color: white;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 18px;
+    font-weight: 600;
+    
+    /* background-color: orange;
+ */}
